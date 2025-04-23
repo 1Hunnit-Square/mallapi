@@ -38,4 +38,14 @@ memberRepository.save(member);
 }
 }
 
+@Test
+public void testRead() {
+
+String email = "user9@aaa.com";
+Member member = memberRepository.getWithRoles(email);
+log.info("----------------");
+log.info(member);
+
+}
+
 }
