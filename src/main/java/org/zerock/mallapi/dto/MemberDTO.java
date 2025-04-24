@@ -35,7 +35,7 @@ public class MemberDTO extends User {
 public Map<String, Object> getClaims() {
     Map<String, Object> dataMap = new HashMap<>();
     dataMap.put("email", email);
-    dataMap.put("pw",pw);
+    dataMap.put("pw", pw);
     dataMap.put("nickname", nickname);
     dataMap.put("social", social);
     dataMap.put("roleNames", roleNames);
