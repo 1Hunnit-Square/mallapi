@@ -26,7 +26,6 @@ public class ProductRepositoryTests {
     ProductRepository productRepository;
 
     @Test
-    @Disabled
     public void testInsert(){
         for(int i = 0; i<10; i++){
             Product product = Product.builder()
